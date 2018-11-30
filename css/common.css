@@ -1,0 +1,96 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image{
+    margin: 10px;
+    padding: 10px;
+    outline:gray solid 1px;
+    width: 400px;
+    height: 400px;
+}
+.detail{
+    margin: 10px;
+    width: 500px;
+}
+.small{
+    font-size: 5px;
+    color: #999999;
+}
+.big-red{
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 50px;
+    color: #ff0000;
+}
+.grey-bck{
+    background: #d9d9d9;
+}
+.inline-block{
+    display: inline-block;
+}
+.sort-item{
+    outline: grey solid 1px;
+    margin: 10px 20px;
+    width: 200px;
+    height: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.sort{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.num{
+    width:500px;
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+.num-input input{
+    margin:10px;
+    width: 40px;
+    height: 35px;
+}
+.num-btn{
+    margin:10px;
+    width:24px;
+    /* height:24px; */
+}
+.num-btn button{
+    width:24px;
+    height:12px;
+    background-color: rgb(238, 238, 238);
+    outline: grey solid 1px;
+    border: none;
+    /* vertical-align: middle; */
+}
+.pay{
+    margin: 20px 0;
+    display:flex;
+    justify-content:space-around;
+}
+.pay-btn{
+    width:180px;
+    height:40px;
+    border:none;
+    /* padding:15px 10px; */
+    background-color:#ffeded;
+    color:red;
+    outline: red solid 1px;
+    font-size:16px;
+}
+.add-btn{
+    width:180px;
+    height:40px;
+    border:none;
+    /* padding:15px 10px; */
+    background-color:red;
+    color: #ffeded;
+    font-size:16px;
+}
